@@ -16,6 +16,7 @@
 		DBE3F5C61BC3782500AE76A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE3F5C41BC3782500AE76A8 /* LaunchScreen.storyboard */; };
 		DBE3F5D11BC3782500AE76A8 /* SpritekitJRPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3F5D01BC3782500AE76A8 /* SpritekitJRPGTests.swift */; };
 		DBE3F5DC1BC3782500AE76A8 /* SpritekitJRPGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3F5DB1BC3782500AE76A8 /* SpritekitJRPGUITests.swift */; };
+		DBE3F5EA1BC3797C00AE76A8 /* Viridian_City_Map.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DBE3F5E91BC3797C00AE76A8 /* Viridian_City_Map.JPG */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DBE3F5D71BC3782500AE76A8 /* SpritekitJRPGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitJRPGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE3F5DB1BC3782500AE76A8 /* SpritekitJRPGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritekitJRPGUITests.swift; sourceTree = "<group>"; };
 		DBE3F5DD1BC3782500AE76A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE3F5E91BC3797C00AE76A8 /* Viridian_City_Map.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Viridian_City_Map.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DBE3F5C21BC3782500AE76A8 /* Assets.xcassets */,
 				DBE3F5C41BC3782500AE76A8 /* LaunchScreen.storyboard */,
 				DBE3F5C71BC3782500AE76A8 /* Info.plist */,
+				DBE3F5EB1BC3798500AE76A8 /* images */,
 			);
 			path = SpritekitJRPG;
 			sourceTree = "<group>";
@@ -129,6 +132,14 @@
 				DBE3F5DD1BC3782500AE76A8 /* Info.plist */,
 			);
 			path = SpritekitJRPGUITests;
+			sourceTree = "<group>";
+		};
+		DBE3F5EB1BC3798500AE76A8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DBE3F5E91BC3797C00AE76A8 /* Viridian_City_Map.JPG */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE3F5EA1BC3797C00AE76A8 /* Viridian_City_Map.JPG in Resources */,
 				DBE3F5BA1BC3782500AE76A8 /* GameScene.sks in Resources */,
 				DBE3F5C61BC3782500AE76A8 /* LaunchScreen.storyboard in Resources */,
 				DBE3F5C31BC3782500AE76A8 /* Assets.xcassets in Resources */,
