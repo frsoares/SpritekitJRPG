@@ -38,7 +38,7 @@ class GameViewController: UIViewController {
         if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
             return .AllButUpsideDown
         } else {
-            return .All
+            return UIInterfaceOrientationMask.LandscapeLeft
         }
     }
 
