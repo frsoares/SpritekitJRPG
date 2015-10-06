@@ -22,8 +22,13 @@ class GameScene: SKScene {
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
        /* Called when a touch begins */
         
+        guard let touch = touches.first else {
+            return
+        }
         
-        shipNode.runAction(SKAction.rotateByAngle(CGFloat(2*M_PI), duration: 2.0))
+        
+        shipNode.runAction(SKAction.moveTo(touch.locationInNode(self), duration: 10.0))
+        
         
     }
    
