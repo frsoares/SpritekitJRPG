@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBE3F5B81BC3782500AE76A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3F5B71BC3782500AE76A8 /* AppDelegate.swift */; };
+		DBE3F5BA1BC3782500AE76A8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DBE3F5B91BC3782500AE76A8 /* GameScene.sks */; };
+		DBE3F5BC1BC3782500AE76A8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3F5BB1BC3782500AE76A8 /* GameScene.swift */; };
+		DBE3F5BE1BC3782500AE76A8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3F5BD1BC3782500AE76A8 /* GameViewController.swift */; };
+		DBE3F5C11BC3782500AE76A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE3F5BF1BC3782500AE76A8 /* Main.storyboard */; };
+		DBE3F5C31BC3782500AE76A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE3F5C21BC3782500AE76A8 /* Assets.xcassets */; };
+		DBE3F5C61BC3782500AE76A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE3F5C41BC3782500AE76A8 /* LaunchScreen.storyboard */; };
+		DBE3F5D11BC3782500AE76A8 /* SpritekitJRPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3F5D01BC3782500AE76A8 /* SpritekitJRPGTests.swift */; };
+		DBE3F5DC1BC3782500AE76A8 /* SpritekitJRPGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3F5DB1BC3782500AE76A8 /* SpritekitJRPGUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBE3F5CD1BC3782500AE76A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE3F5AC1BC3782500AE76A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBE3F5B31BC3782500AE76A8;
+			remoteInfo = SpritekitJRPG;
+		};
+		DBE3F5D81BC3782500AE76A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE3F5AC1BC3782500AE76A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBE3F5B31BC3782500AE76A8;
+			remoteInfo = SpritekitJRPG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBE3F5B41BC3782500AE76A8 /* SpritekitJRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpritekitJRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE3F5B71BC3782500AE76A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBE3F5B91BC3782500AE76A8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DBE3F5BB1BC3782500AE76A8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DBE3F5BD1BC3782500AE76A8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DBE3F5C01BC3782500AE76A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBE3F5C21BC3782500AE76A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBE3F5C51BC3782500AE76A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBE3F5C71BC3782500AE76A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE3F5CC1BC3782500AE76A8 /* SpritekitJRPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitJRPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE3F5D01BC3782500AE76A8 /* SpritekitJRPGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritekitJRPGTests.swift; sourceTree = "<group>"; };
+		DBE3F5D21BC3782500AE76A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE3F5D71BC3782500AE76A8 /* SpritekitJRPGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitJRPGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE3F5DB1BC3782500AE76A8 /* SpritekitJRPGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritekitJRPGUITests.swift; sourceTree = "<group>"; };
+		DBE3F5DD1BC3782500AE76A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBE3F5B11BC3782500AE76A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE3F5C91BC3782500AE76A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE3F5D41BC3782500AE76A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBE3F5AB1BC3782500AE76A8 = {
+			isa = PBXGroup;
+			children = (
+				DBE3F5B61BC3782500AE76A8 /* SpritekitJRPG */,
+				DBE3F5CF1BC3782500AE76A8 /* SpritekitJRPGTests */,
+				DBE3F5DA1BC3782500AE76A8 /* SpritekitJRPGUITests */,
+				DBE3F5B51BC3782500AE76A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBE3F5B51BC3782500AE76A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBE3F5B41BC3782500AE76A8 /* SpritekitJRPG.app */,
+				DBE3F5CC1BC3782500AE76A8 /* SpritekitJRPGTests.xctest */,
+				DBE3F5D71BC3782500AE76A8 /* SpritekitJRPGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBE3F5B61BC3782500AE76A8 /* SpritekitJRPG */ = {
+			isa = PBXGroup;
+			children = (
+				DBE3F5B71BC3782500AE76A8 /* AppDelegate.swift */,
+				DBE3F5B91BC3782500AE76A8 /* GameScene.sks */,
+				DBE3F5BB1BC3782500AE76A8 /* GameScene.swift */,
+				DBE3F5BD1BC3782500AE76A8 /* GameViewController.swift */,
+				DBE3F5BF1BC3782500AE76A8 /* Main.storyboard */,
+				DBE3F5C21BC3782500AE76A8 /* Assets.xcassets */,
+				DBE3F5C41BC3782500AE76A8 /* LaunchScreen.storyboard */,
+				DBE3F5C71BC3782500AE76A8 /* Info.plist */,
+			);
+			path = SpritekitJRPG;
+			sourceTree = "<group>";
+		};
+		DBE3F5CF1BC3782500AE76A8 /* SpritekitJRPGTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBE3F5D01BC3782500AE76A8 /* SpritekitJRPGTests.swift */,
+				DBE3F5D21BC3782500AE76A8 /* Info.plist */,
+			);
+			path = SpritekitJRPGTests;
+			sourceTree = "<group>";
+		};
+		DBE3F5DA1BC3782500AE76A8 /* SpritekitJRPGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBE3F5DB1BC3782500AE76A8 /* SpritekitJRPGUITests.swift */,
+				DBE3F5DD1BC3782500AE76A8 /* Info.plist */,
+			);
+			path = SpritekitJRPGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBE3F5B31BC3782500AE76A8 /* SpritekitJRPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE3F5E01BC3782500AE76A8 /* Build configuration list for PBXNativeTarget "SpritekitJRPG" */;
+			buildPhases = (
+				DBE3F5B01BC3782500AE76A8 /* Sources */,
+				DBE3F5B11BC3782500AE76A8 /* Frameworks */,
+				DBE3F5B21BC3782500AE76A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpritekitJRPG;
+			productName = SpritekitJRPG;
+			productReference = DBE3F5B41BC3782500AE76A8 /* SpritekitJRPG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBE3F5CB1BC3782500AE76A8 /* SpritekitJRPGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE3F5E31BC3782500AE76A8 /* Build configuration list for PBXNativeTarget "SpritekitJRPGTests" */;
+			buildPhases = (
+				DBE3F5C81BC3782500AE76A8 /* Sources */,
+				DBE3F5C91BC3782500AE76A8 /* Frameworks */,
+				DBE3F5CA1BC3782500AE76A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBE3F5CE1BC3782500AE76A8 /* PBXTargetDependency */,
+			);
+			name = SpritekitJRPGTests;
+			productName = SpritekitJRPGTests;
+			productReference = DBE3F5CC1BC3782500AE76A8 /* SpritekitJRPGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBE3F5D61BC3782500AE76A8 /* SpritekitJRPGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE3F5E61BC3782500AE76A8 /* Build configuration list for PBXNativeTarget "SpritekitJRPGUITests" */;
+			buildPhases = (
+				DBE3F5D31BC3782500AE76A8 /* Sources */,
+				DBE3F5D41BC3782500AE76A8 /* Frameworks */,
+				DBE3F5D51BC3782500AE76A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBE3F5D91BC3782500AE76A8 /* PBXTargetDependency */,
+			);
+			name = SpritekitJRPGUITests;
+			productName = SpritekitJRPGUITests;
+			productReference = DBE3F5D71BC3782500AE76A8 /* SpritekitJRPGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBE3F5AC1BC3782500AE76A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = frsoares;
+				TargetAttributes = {
+					DBE3F5B31BC3782500AE76A8 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DBE3F5CB1BC3782500AE76A8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DBE3F5B31BC3782500AE76A8;
+					};
+					DBE3F5D61BC3782500AE76A8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DBE3F5B31BC3782500AE76A8;
+					};
+				};
+			};
+			buildConfigurationList = DBE3F5AF1BC3782500AE76A8 /* Build configuration list for PBXProject "SpritekitJRPG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBE3F5AB1BC3782500AE76A8;
+			productRefGroup = DBE3F5B51BC3782500AE76A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBE3F5B31BC3782500AE76A8 /* SpritekitJRPG */,
+				DBE3F5CB1BC3782500AE76A8 /* SpritekitJRPGTests */,
+				DBE3F5D61BC3782500AE76A8 /* SpritekitJRPGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBE3F5B21BC3782500AE76A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE3F5BA1BC3782500AE76A8 /* GameScene.sks in Resources */,
+				DBE3F5C61BC3782500AE76A8 /* LaunchScreen.storyboard in Resources */,
+				DBE3F5C31BC3782500AE76A8 /* Assets.xcassets in Resources */,
+				DBE3F5C11BC3782500AE76A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE3F5CA1BC3782500AE76A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE3F5D51BC3782500AE76A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBE3F5B01BC3782500AE76A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE3F5BC1BC3782500AE76A8 /* GameScene.swift in Sources */,
+				DBE3F5BE1BC3782500AE76A8 /* GameViewController.swift in Sources */,
+				DBE3F5B81BC3782500AE76A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE3F5C81BC3782500AE76A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE3F5D11BC3782500AE76A8 /* SpritekitJRPGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE3F5D31BC3782500AE76A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE3F5DC1BC3782500AE76A8 /* SpritekitJRPGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBE3F5CE1BC3782500AE76A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBE3F5B31BC3782500AE76A8 /* SpritekitJRPG */;
+			targetProxy = DBE3F5CD1BC3782500AE76A8 /* PBXContainerItemProxy */;
+		};
+		DBE3F5D91BC3782500AE76A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBE3F5B31BC3782500AE76A8 /* SpritekitJRPG */;
+			targetProxy = DBE3F5D81BC3782500AE76A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBE3F5BF1BC3782500AE76A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE3F5C01BC3782500AE76A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBE3F5C41BC3782500AE76A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE3F5C51BC3782500AE76A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBE3F5DE1BC3782500AE76A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBE3F5DF1BC3782500AE76A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBE3F5E11BC3782500AE76A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpritekitJRPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.fmssn.SpritekitJRPG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBE3F5E21BC3782500AE76A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpritekitJRPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.fmssn.SpritekitJRPG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBE3F5E41BC3782500AE76A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpritekitJRPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.fmssn.SpritekitJRPGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpritekitJRPG.app/SpritekitJRPG";
+			};
+			name = Debug;
+		};
+		DBE3F5E51BC3782500AE76A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpritekitJRPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.fmssn.SpritekitJRPGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpritekitJRPG.app/SpritekitJRPG";
+			};
+			name = Release;
+		};
+		DBE3F5E71BC3782500AE76A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpritekitJRPGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.fmssn.SpritekitJRPGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpritekitJRPG;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DBE3F5E81BC3782500AE76A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpritekitJRPGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.fmssn.SpritekitJRPGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpritekitJRPG;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBE3F5AF1BC3782500AE76A8 /* Build configuration list for PBXProject "SpritekitJRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE3F5DE1BC3782500AE76A8 /* Debug */,
+				DBE3F5DF1BC3782500AE76A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE3F5E01BC3782500AE76A8 /* Build configuration list for PBXNativeTarget "SpritekitJRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE3F5E11BC3782500AE76A8 /* Debug */,
+				DBE3F5E21BC3782500AE76A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBE3F5E31BC3782500AE76A8 /* Build configuration list for PBXNativeTarget "SpritekitJRPGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE3F5E41BC3782500AE76A8 /* Debug */,
+				DBE3F5E51BC3782500AE76A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBE3F5E61BC3782500AE76A8 /* Build configuration list for PBXNativeTarget "SpritekitJRPGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE3F5E71BC3782500AE76A8 /* Debug */,
+				DBE3F5E81BC3782500AE76A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBE3F5AC1BC3782500AE76A8 /* Project object */;
+}
