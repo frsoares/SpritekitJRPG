@@ -16,13 +16,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var movimentoPersonagem : CMMotionManager = CMMotionManager()
     
+    var sideWays : Bool = true
+    
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
        
         shipNode = self.childNodeWithName("sknodeShip")
-        
-        
-        
+                
         self.physicsWorld.contactDelegate=self
         
         
@@ -48,6 +48,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         
         shipNode.physicsBody?.velocity=CGVector.zero
+        sideWays = !sideWays
 //        guard let touch = touches.first else {
 //            return
 //        }
@@ -69,15 +70,19 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func movimentarPersonagem(currentTime:CFTimeInterval){
         if let data = movimentoPersonagem.accelerometerData{
             if(fabs(data.acceleration.y) > 0.25){
-                shipNode.physicsBody!.applyImpulse(CGVectorMake(-20.0 * CGFloat(data.acceleration.y), 0))
+                
+                if(sideWays){
+                    shipNode.physicsBody!.applyImpulse(CGVectorMake(-20.0 * CGFloat(data.acceleration.y), 0))
+                }else{
+                    shipNode.physicsBody!.applyImpulse(CGVectorMake(0, -20.0 * CGFloat(data.acceleration.y)))
+                }
             }
-    
 
-            print("x is \(data.acceleration.x)")
-            if(fabs(data.acceleration.x) > 0.25){
-                shipNode.physicsBody!.applyImpulse(CGVectorMake(0, -20.0 * CGFloat(data.acceleration.x)))
-
-            }
+//            print("x is \(data.acceleration.x)")
+//            if(fabs(data.acceleration.x) > 0.25){
+//                shipNode.physicsBody!.applyImpulse(CGVectorMake(0, -20.0 * CGFloat(data.acceleration.x)))
+//
+//            }
         }
     }
     
